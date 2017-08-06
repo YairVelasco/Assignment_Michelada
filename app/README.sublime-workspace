@@ -1,0 +1,196 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"HEAD",
+				"HEADER\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/yair_/Documents/GitHub/CRUD_RoR/app/views/marca/index.html.erb",
+		"/C/Users/yair_/Documents/GitHub/CRUD_RoR/app/views/layouts/application.html.erb",
+		"/C/Users/yair_/Documents/GitHub/CRUD_RoR/app/controllers/marca_controller.rb",
+		"/C/Users/yair_/Documents/GitHub/CRUD_RoR/config/routes.rb",
+		"/C/Users/yair_/Documents/GitHub/CRUD_RoR/db/migrate/20170806135509_create_productos.rb",
+		"/C/Users/yair_/Documents/GitHub/CRUD_RoR/db/migrate/20170806134127_create_marcas.rb",
+		"/C/Users/yair_/Documents/GitHub/CRUD_RoR/app/models/producto.rb",
+		"/C/Users/yair_/Documents/GitHub/CRUD_RoR/app/models/marca.rb",
+		"/C/Users/yair_/Documents/GitHub/CRUD_RoR/app/views/layouts/mailer.html.erb",
+		"/C/Users/yair_/Documents/GitHub/CRUD_RoR/app/views/layouts/mailer.text.erb",
+		"/C/Users/yair_/Documents/GitHub/CRUD_RoR/Gemfile.lock",
+		"/C/Users/yair_/Documents/GitHub/CRUD_RoR/Gemfile",
+		"/C/Users/yair_/Documents/GitHub/CRUD_RoR/.gitattributes",
+		"/C/Users/yair_/Documents/GitHub/CRUD_RoR/.gitignore",
+		"/C/Users/yair_/Documents/GitHub/CRUD_RoR/config/boot.rb",
+		"/C/Users/yair_/Desktop/Portfolio/index.html",
+		"/C/Users/yair_/Desktop/Portfolio/index2.html",
+		"/C/Users/yair_/Desktop/Portfolio/main.css",
+		"/C/Users/yair_/Desktop/Portfolio/js/main.js",
+		"/C/Users/yair_/Documents/ror_proyect/crud_ror/config/routes.rb",
+		"/C/Users/yair_/Documents/ror_proyect/crud_ror/db/seeds.rb",
+		"/C/Users/yair_/Documents/Sublime/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/yair_/Documents/Sublime/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/yair_/Google Drive/Página/Template/01 - Template/index.html"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "README.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

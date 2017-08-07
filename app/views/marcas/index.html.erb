@@ -1,13 +1,15 @@
-<div class="tags">
-  <div class="container">
-    <div class="cards row">
-    	<% @marcas.each do |t| %>
-      <div class="card col-xs-4">
-        
-        <h2><%= t.name %></h2>
-        
-      </div>
-      <% end %>
-    </div>
-  </div>
-</div>
+<table id="tablas", style="width:100%">
+  <tr>
+    <th>#</th>
+    <th>Brand</th>
+    <th>Actions</th>
+  </tr>
+  <% @marcas.each do |t| %>
+    <tr>
+      <td><%=t.id%></td>
+      <td><%=t.name%></td>
+      <td> </td> 
+    </tr>
+  <% end %>
+</table>
+    	

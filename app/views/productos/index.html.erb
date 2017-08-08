@@ -10,9 +10,12 @@
       <td><%=p.name%></td>
       <td><%=p.description%></td>
       <td><%=p.price%></td>
-      <td><%= @marcas.select {|m|   m.id == t.marca_id }%></td>
+      <td><%=p.marca_id%></td>
       
       
     </tr>
   <% end %>
+
 </table>
+<p> </p>
+<div><%= link_to 'New product', "productos/new" %></div>

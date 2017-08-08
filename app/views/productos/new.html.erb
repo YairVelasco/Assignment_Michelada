@@ -1,0 +1,13 @@
+<div>
+<%= form_for(@producto) do |p| %>  
+	<div> 
+		<%= p.label :form %><br> 
+		<p>Name: <%= p.text_field :name %></p>
+		<p>Description: <%= p.text_area :description %><br></p> 
+		<p>Price: <%= p.text_field :price %></p> 
+	</div> 
+	<div> 
+		<%= p.submit "create" %> 
+	</div> 
+	<% end %>
+</div>

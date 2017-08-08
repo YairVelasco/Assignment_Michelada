@@ -14,6 +14,7 @@ class ProductosController < ApplicationController
 
 	def new
 		@producto = Producto.new
+		@marcas = Marca.all
 	end
 
 	def create

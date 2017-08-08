@@ -19,26 +19,47 @@ class ProductosController < ApplicationController
 
 	def create
 		@producto = Producto.new(producto_params)
-		if @producto.save 
+		flash[:alert] = ''
+		# if @producto.name.to_s == ''
+		# 	flash[:alert] = "You have to add a name for the product"
+		# 	render 'new' 	
+		# els
+		if @producto.save
 			redirect_to '/productos'
+			#flash[:notice] = "You have to add a name for the product" 
 		else
 			render 'new'
 		end
+	end
+
+	def edit 
+  		@producto = Producto.find(params[:id])
+  		@marcas = Marca.all 
 	end
 
 	def update
 		@producto = Producto.find(params[:id])
 		if @producto.update(producto_params)
 			#Change this if I want to go somewhere else
-			redirect_to @producto
+			redirect_to '/productos'
 		else
 			render 'edit'
 		end
 	end
 
+	def destroy
+		@producto = Producto.find(params[:id])
+		if  producto.destroy
+			flash[:success] = "User deleted"
+			redirect_to '/productos'
+		else
+			flash[:failure] = "User couldn't be deleted"
+		end
+	end
+
 	private
 		def producto_params
-			params.require(:producto).permit(:name,:description,:price)
+			params.require(:producto).permit(:name,:description,:price,:marca_id)
 		end
 
 

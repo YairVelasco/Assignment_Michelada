@@ -4,6 +4,7 @@
     <th>Description</th>
     <th>Price</th>
     <th>Brand</th>
+    <th>Actions</th>
   </tr>
   <% @productos.each do |p| %>
     <tr>
@@ -11,8 +12,9 @@
       <td><%=p.description%></td>
       <td><%=p.price%></td>
       <td><%=p.marca_id%></td>
-      
-      
+      <td><%= link_to "Delete", producto_path(p), :confirm => "Are you sure?", :method => :delete %>
+        <%= link_to "Edit", edit_producto_path(p) %>
+      </td>
     </tr>
   <% end %>
 

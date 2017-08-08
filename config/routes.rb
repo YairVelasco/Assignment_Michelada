@@ -15,5 +15,6 @@ Rails.application.routes.draw do
   get '/productos/new' => 'productos#new'
   post '/productos' => 'productos#create'
   patch '/productos/:id' => 'productos#update'
-  delete '/productos/:id' => 'productos#destroy'
+  get '/productos/:id/edit' => 'productos#edit', as: :edit_producto
+  delete '/productos/:id' => 'productos#destroy', as: :producto
 end

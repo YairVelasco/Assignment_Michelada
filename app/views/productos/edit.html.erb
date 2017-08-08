@@ -8,8 +8,7 @@
 		<%= p.select :marca_id, @marcas.all.collect {|m| [m.name, m.id] } %>
 	</div> 
 	<div> 
-		<%= p.submit "create" %>
-		<%= flash[:notice] %> 
+		<%= p.submit "update" %> 
 	</div> 
 	<% end %>
 </div>
